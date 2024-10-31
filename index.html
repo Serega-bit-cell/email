@@ -1,0 +1,444 @@
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>Blanchard Художественная галерея</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <style>
+                body {
+                    width: 100% !important;
+                    -webkit-text-size-adjust: 100%;
+                    -ms-text-size-adjust: 100%;
+                    margin: 0;
+                    padding: 0;
+                    line-height: 100%;
+                    color: #ffffff;
+                    font-family: 'Open Sans', arial, sans-serif !important;
+                }
+        
+                img {
+                    outline: none;
+                    text-decoration: none;
+                    border:none;
+                    -ms-interpolation-mode: bicubic;
+                    max-width: 100%!important;
+                    margin: 0;
+                    padding: 0;
+                }
+            
+                table td {
+                    border-collapse: collapse;
+                }
+            
+                table {
+                    border-collapse: collapse;
+                    mso-table-lspace: 0pt;
+                    mso-table-rspace: 0pt;
+                }
+        
+                .container {
+                    width: 100%;
+                    max-width: 600px;
+                    margin: 0 auto;
+                }
+        
+                .header {
+                    background-color: #000000;
+                    color: white;
+                    padding-top: 30px;
+                    padding-bottom: 28px;
+                }
+        
+                .footer {
+                    width: 600px;
+                    background-color: #000000;
+                    color: #ffffff;
+                    padding: 20px;
+                    text-align: center;
+                    font-size: 12px;
+                }
+        
+                .button {
+                    background-color: rgba(157, 92, 208, 1);
+                    ;
+                    color: white;
+                    padding-top: 15px;
+                    padding-bottom: 16px;
+                    padding-left: 37px;
+                    padding-right: 37px;
+                    text-align: center;
+                    text-decoration: none;
+                    border-radius: 48px;
+                }
+                .content {
+                    background-color: #ffffff;
+                    color: rgba(81, 81, 81, 1);
+                    font-size: 13.5px;
+                    font-weight: 700;
+                    line-height: 24px;
+                    padding-left: 20px;
+                    padding-right: 20px;
+                }
+                .content_fonts {
+                    font-size: 12px;
+                    font-weight: 400;
+                    line-height: 24px;
+                }
+                .content_subtitle {
+                    margin: 0;
+                    padding-top: 20px;
+                    font-size: 12px;
+                    font-weight: 700;
+                    line-height: 24px;
+                    color: rgba(255, 255, 255, 1);
+                }
+                .content_paragraph {
+                    margin: 0;
+                    padding-bottom: 22px;
+                    font-family: Arial;
+                    font-size: 12px;
+                    font-weight: 400;
+                    line-height: 18px;
+                    color: rgba(255, 255, 255, 1);
+                }
+                .content_paragraph_low {
+                    margin: 0;
+                    padding-bottom: 22px;
+                    font-family: Arial;
+                    font-size: 12px;
+                    font-weight: 400;
+                    line-height: 18px;
+                }
+                .content_hero {
+                    padding-left: 40px;
+                    padding-top: 32px;
+                    padding-right: 40px;
+                    padding-bottom: 25px;
+                }
+                .content_main {
+                    padding-top: 20px;
+                    background-color: #000000;
+                }
+                .content_280 {
+                    padding-top: 22px;
+                }
+                .con_subtitle {
+                    padding-top: 16px; 
+                    padding-bottom: 10px; 
+                    padding-left: 20px;
+                }
+                .td_one {
+                    padding-left: 20px;
+                    vertical-align: top;
+                }
+                .td_two {
+                    padding-left: 10px;
+                    vertical-align: top;
+                }
+                .td_three {
+                    vertical-align: top;
+                }
+                .td_button {
+                    padding-top: 43px;
+                    padding-bottom: 42px;
+                }
+                .td_footer {
+                    padding-top: 25px;
+                }
+                .p_footer {
+                    font-family: Arial;
+                    font-size: 12px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    text-align: center;
+                    color: rgba(117, 117, 117, 1);
+                    margin: 0;
+                    padding-top: 5px;
+                    padding-bottom: 10px;
+                }
+                .main_black {
+                    background-color: #000000;
+                }
+
+
+                @media (max-width: 280px) {
+                    .table-600 {
+                        width: 280px !important;
+
+                    }
+                    .header {
+                        padding-top: 20px;
+                        padding-bottom: 17px;
+                    }
+                    .logo {
+                        width: 114px;
+                        height: auto;
+                    }
+                    .desktop {
+                        display: none !important;
+                    }
+                    .mobile {
+                        display: block !important;
+                    }
+                    .content_hero {
+                        padding-left: 19px;
+                        padding-top: 32px;
+                        padding-right: 30px;
+                    }
+                    .content_main {
+                        padding-top: 0;
+                        width: 280px;
+                    }
+                    .container {
+                        max-width: 280px;
+                    }
+                    .content_title {
+                        padding-top: 14px;
+                    }
+                    .content_subtitle {
+                        padding-top: 9px;
+                        padding-bottom: 2px;
+                    }
+                    .content {
+                        padding-left: 18px;
+                        padding-right: 18px;
+                    }
+                    .content_280 {
+                        padding-top: 19px;
+                    }
+                    .paragraph {
+                        padding-right: 20px;
+                    }
+                    .sb_content {
+                        padding-bottom: 10px;
+                    }
+                    .responsive-table td {
+                        display: block; /* Изменяем отображение ячеек на блочное */
+                        width: 100%; /* Ячейки занимают всю ширину */
+                    }
+                    .responsive-table img {
+                        display: block; /* Изображения занимают всю ширину ячейки */
+                        margin: 0 auto; /* Центрируем изображения */
+                    }
+                    .con_subtitle {
+                        padding-top: 24px; 
+                    }
+                    .td_one {
+                        padding-left: 20px;
+                        vertical-align: none;
+                    }
+                    .td_two {
+                        padding-top: 25px;
+                        padding-left: 20px;
+                        vertical-align: top;
+                    }
+                    .td_three {
+                        padding-top: 24px;
+                        padding-left: 20px;
+                        vertical-align: top;
+                    }
+                    .td_button {
+                        padding-top: 39px;
+                        padding-bottom: 42px;
+                    }
+                    .td_footer {
+                        padding-top: 28px;
+                    }
+                    .img_content {
+                        margin: 0 !important;
+                    }
+                }
+            </style>
+    </head>
+
+    <body style="margin: 0; padding: 0;">
+        <div style="font-size:0px;font-color:#000000;opacity:0;visibility:hidden;width:0;height:0;display:none;">Тестовое письмо</div>
+        <table class="container table-600" cellpadding="0" cellspacing="0" width="100%" background-color="#000000" align="center">
+            <tr class="table-600">
+                <td align="center">
+                    <table class="container table-600" cellpadding="0" cellspacing="0" width="600">
+                        <tr>
+                            <td align="center" class="header">
+                                <img class="logo" src="https://i.postimg.cc/N0PK9Y5Y/logo-email.png" alt="Логотип">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="https://i.postimg.cc/bwrTKYcf/Rectangle-6-2.jpg" alt="Картина" style="display: block; max-width: 100%; height: auto;" class="desktop">
+                                <img src="https://i.postimg.cc/50m3SGzs/Rectangle-6.png" alt="Картина" style="display: none; max-width: 100%; height: auto;" class="mobile">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="content content_hero">
+                                <h2 style="margin-top: 0; margin: 0;">Торжество импрессионизма</h2>
+                                <p class="content_fonts" style="margin: 0; padding-top: 12px;">Опыт говорит нам, что семантический разбор внешних противодействий требует анализа новых принципов формирования материально-технической и кадровой базы.</p>
+                                <p class="content_fonts">Задача организации, в особенности же внедрение современных методик, в своём классическом представлении, допускает внедрение глубокомысленных рассуждений. Есть над чем задуматься: элементы политического процесса преданы социально-демократической анафеме! Но интерактивные прототипы заблокированы в рамках своих собственных рациональных ограничений. Сторонники тоталитаризма в науке ограничены исключительно образом мышления.</p>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td class="content content_main">
+                    <table class="container" cellpadding="0" cellspacing="0" width="100%">
+                        <tr>
+                            <td>
+                                <table class="container" cellpadding="0" cellspacing="0" width="100%">
+                                    <tr>
+                                        <td class="content_title">
+                                            <h2 class="content main_black" style="font-family: Arial; font-size: 16px; font-weight: 400; line-height: 24px; color: rgba(255, 255, 255, 1); margin: 0; padding-bottom: 20px;">Представленные художники</h2>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <tr>
+                                <td>
+                                    <table class="container" cellpadding="0" cellspacing="0" width="100%">
+                                        <tr>
+                                            <td class="content main_black">
+                                                <img src="https://i.postimg.cc/k4mWXqZ4/img2.jpg" alt="Картина">
+                                                <h3 class="content_subtitle">Поль Гоген</h3>
+                                                <p class="content_paragraph">Прежде всего, разбавленное
+                                                    изрядной долей эмпатии,
+                                                    рациональное мышление в
+                                                    значительной степени
+                                                    обусловливает важность
+                                                    укрепления моральных
+                                                    ценностей.</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="content main_black">
+                                                <img
+                                                    src="https://i.postimg.cc/J4nZhTTb/2.jpg" width="600" alt="Картина" style="width:100%;max-width:600px;height:auto;">
+                                                <h3 class="content_subtitle">Огюст Ренуар</h3>
+                                                <p class="content_paragraph paragraph">А также сделанные на базе
+                                                    интернет-аналитики выводы
+                                                    освещают чрезвычайно
+                                                    интересные особенности
+                                                    картины в целом.</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="content main_black">
+                                                <img
+                                                    src="https://i.postimg.cc/76wTrXGJ/3.jpg" alt="Картина">
+                                                <h3 class="content_subtitle">Клод Моне</h3>
+                                                <p class="content_paragraph">Современная методология
+                                                    разработки однозначно
+                                                    фиксирует необходимость
+                                                    системы массового
+                                                    участия.</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="content main_black">
+                                                <img
+                                                    src="https://i.postimg.cc/P5DLL018/4.jpg" alt="Картина">
+                                                <h3 class="content_subtitle sb_content">Эдуар Мане</h3>
+                                                <p class="content_paragraph">Но социально-экономическое
+                                                    развитие является
+                                                    качественно новой ступенью
+                                                    вывода текущих активов.</p>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="content main_black">
+                                                <img
+                                                    src="https://i.postimg.cc/cHx6bH2Q/image.png" alt="Картина">
+                                                <h3 class="content_subtitle sb_content">Винсент Ван Гог</h3>
+                                                <p class="content_paragraph">Повседневная практика
+                                                    показывает, что разбавленное
+                                                    изрядной долей эмпатии,
+                                                    рациональное мышление
+                                                    требует анализа поставленных
+                                                    обществом задач.</p>
+                                            </td>
+
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td class="content" style="text-align: center;">
+                    <table class="container table-600" cellpadding="0" cellspacing="0" width="600">
+                        <tr>
+                            <td align="left" class="con_subtitle">
+                                <h2 class="content_subtitle" style="font-weight: 400; font-size: 16px;">И это ещё не всё!</h2>
+                            </td>
+                        </tr>
+                         <tr>
+                            <td>
+                                 <table class="responsive-table" cellpadding="0" cellspacing="0" width="100%">
+                                    <tr>
+                                        <td align="left" class="td_one">
+                                            <img class="img_content" src="https://i.postimg.cc/HsyW3Xnq/check-square.jpg" alt="Картина">
+                                            <p class="content_paragraph_low" style="text-align: left; padding-bottom: 0; padding-top: 10px;">Уникальные подборки<br> работ с авторскими рецензиями</p>
+                                        </td>
+                                        <td align="left" class="td_two">
+                                            <img class="img_content" src="https://i.postimg.cc/jjZRCh37/calendar.jpg" alt="Картина">
+                                            <p class="content_paragraph_low" style="text-align: left; padding-bottom: 0; padding-right: 10px; padding-top: 10px;">Возможность настроить<br> нашу рассылку под свой личный вкус</p>
+                                        </td>
+                                        <td align="left" class="td_three">
+                                            <img class="img_content" src="https://i.postimg.cc/4yhGLRf6/arrow-up-circle.jpg" alt="Картина">
+                                            <p class="content_paragraph_low" style="text-align: left; padding-bottom: 0; padding-top: 10px;">У вас есть пожелания и предложения?<br> Напишите нам в ответ<br> на это письмо!</p>
+                                        </td>
+                                    </tr>
+                                </table>
+                             </td>
+                        </tr>
+                        <tr>
+                            <td class="td_button">
+                                <a style="font-size: 14px; font-weight: 700;" href="#" class="button">Узнать все подробности</a>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table class="container footer" cellpadding="0" cellspacing="0">
+                        <tr>
+                            <td>
+                                <table cellpadding="0" cellspacing="0" align="center">
+                                    <tr>
+                                       <td align="left" class="td_footer">
+                                          <a href="#">
+                                             <img src="https://i.postimg.cc/m2Czk0Y1/Vector-5.png" alt="Сылка на вконтакте">
+                                          </a>
+                                       </td>
+                                       <td align="center" class="td_footer" style="padding-left: 18px; padding-right: 18px;">
+                                          <a href="#">
+                                              <img src="https://i.postimg.cc/SKNJZRwc/instagram.png" alt="Сылка на инстраграмм">
+                                          </a>
+                                       </td>
+                                       <td align="right" class="td_footer">
+                                           <a href="#">
+                                              <img src="https://i.postimg.cc/GhFtdvRk/fb.png" alt="Сылка на фейсбук">
+                                           </a>
+                                       </td>
+                                   </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="p_footer">Blanchard © 2020 / Все права защищены</p>
+                            </td>
+                        </tr>
+                        <tr>        
+                            <td style="background-color: rgba(235, 235, 235, 1);">    
+                                <p class="content_paragraph" style="padding-bottom: 0; font-weight: 400; font-size: 10px; color:rgba(117, 117, 117, 1);">Вы можете так же <a href="#" style="color: rgba(157, 92, 208, 1);">отписаться от рассылки</a></p>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
